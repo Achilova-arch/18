@@ -1,0 +1,136 @@
+style{
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    font-family: "Inter", sans-serif;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background: #FFFFFF;
+  font-family: "Inter", sans-serif;
+}
+.header{
+    padding: 48px 0;
+    border: 2px solid #DEDBDB;
+  background-color: white;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_btn{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background-color: transparent;
+    border: none;
+}
+.nav_btn span{  
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+
+}
+main{
+    padding: 52px 0 ;
+}
+.wrapper{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 66px;
+    border-radius: 50px;
+}
+.orange{
+    color: #F0400F;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+
+}
+.welcome{
+    margin: 127px 0 47px 0;
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+color: #0E0D5D;
+text-align: center;
+}
+.btn_wrapper{
+    background-color: #F5F5F5;
+padding: 8px 12px;
+border-radius: 20px;
+margin-bottom: 40px;
+}
+.students{
+    width: 49%;
+    padding: 10px 0;
+font-weight: 500;
+font-size: 28px;
+line-height: 100%;
+border-radius: 15px;
+background-color: white;
+border: none;
+
+}
+.parents{
+   background-color: transparent;
+}
+.modmeid , .input_wrapper{
+    width: 100%;
+    padding: 20px 50px;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+border-radius: 20px;
+border: 1px solid #75757530;
+margin-top: 40px;
+}
+.input_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input_wrapper input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+color: #757575B2;
+}
+.var_qr{
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+color: #000000A3;
+margin: 18px auto 38px auto;
+display: block;
+background-color: transparent;
+border: none;
+
+}
+.confirm{
+    padding: 17px 23px;
+    background-color: #F69E86;
+border-radius: 20px;
+color: white;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+border: none;
+margin: auto;
+display: block;
+}
